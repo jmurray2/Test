@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-navbar color="primary2">
+        <ion-title text-center>DroNax</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list style="padding-top:100px">
+    <ion-item>
+        <ion-input #username placeholder="Username" type="text"></ion-input>
+    </ion-item>
+    
+    <ion-item>
+        <ion-input #password placeholder="Password" type="password"></ion-input>
+    </ion-item>
+    
+    </ion-list>
+    <button ion-button block color="primary2" (click)="signIn(username.value,password.value)">Sign In</button>
+    <button ion-button block color="primary2" (click)="createAccount()">Create Account</button>
+
+</ion-content>

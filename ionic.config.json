@@ -1,0 +1,8 @@
+{
+  "name": "DroNax",
+  "app_id": "bef13a98",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
